@@ -1,0 +1,106 @@
+@import "null.css";
+/*@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,400;1,900&family=Dongle:wght@700&family=IBM+Plex+Serif:wght@300;600&display=swap');*/ 
+@font-face {
+	font-family: "BarlowCondensed ";
+	src: url('../fonts/BarlowCondensed-BlackItalic.woff2') format("woff2"), url('../fonts/BarlowCondensed-BlackItalic.woff') format("woff");
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;	
+}
+@font-face {
+	font-family: "BarlowCondensed" ;
+	src: url("../fonts/BarlowCondensed-Regular.woff2") format("woff2"), url("../fonts/BarlowCondensed-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;	
+}
+@font-face {
+	font-family: "BarlowCondensed" ;
+	src: url("../fonts/BarlowCondensed-Thi@import url(https://fonts.googleapis.com/css?family=Dongle:300,regular,700);n.woff2'") format("woff2"), url("../fonts/BarlowCondensed-Thin.woff") format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;	
+}
+@font-face {
+	font-family: "Dondle";
+	src: url("../fonts/Dongle-Bold.woff2") format("woff2"), url("../fonts/Dongle-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;	
+}
+
+@font-face {
+	font-family: "IBMPlexSerif";
+	src: url("../fonts/IBMPlexSerif-Light.woff2") format("woff2"), url("../fonts/IBMPlexSerif-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;	
+}
+@font-face {
+	font-family: "IBMPlexSerif";
+	src: url("../fonts/IBMPlexSerif-SemiBold.woff2") format("woff2"), url("../fonts/IBMPlexSerif-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;	
+}
+body {
+	font-family: "BarlowCondensed", sans-serif;
+	font-size: 30px;
+}
+.title {
+	color: red;
+	font-family: "IBMPlexSerif", sans-serif;
+	font-weight: 600;
+	font-size: 65px;
+	font-style: oblique;
+	text-indent: 40px;
+	letter-spacing: 10px;
+
+}
+.text {
+	font-family: "IBMPlexSerif", sans-serif;
+	font-weight: 300;
+	color: blueviolet ;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 10px 10px 10px hotpink;
+	text-transform: uppercase;
+	line-height: 1.5;
+		
+
+}
+.block {
+	font-family: "BarlowCondensed ", sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	text-align: center;
+	line-height: 1.5 ;
+	word-spacing: 20px ;
+}
+.page {
+	font-family: "BarlowCondensed", sans-serif;
+	font-weight: 400;
+	font-size: 55px;
+	color: indianred;
+}
+.menu {
+	font-family: "Dondle", sans-serif;
+	font-weight: 700;
+	color: lawngreen;
+}
+span {
+	font-family: "BarlowCondensed", sans-serif;
+	font-weight: 100;
+	color: black;
+	text-decoration: line-through;
+}
+.footer {
+	font-family: "Dondle", sans-serif;
+	font-weight: 700;
+	color: lightseagreen;
+	word-spacing: 25px;
+	text-align: center;
+	
+}
+
+
